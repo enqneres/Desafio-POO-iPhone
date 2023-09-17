@@ -3,6 +3,9 @@ public class iPhone implements AparelhoTelefonico, NavegadorInternet, Reprodutor
     private NavegadorInternet navegadorInternet;
     private ReprodutorMusical reprodutorMusical;
 
+    public iPhone() {
+    }
+
     @Override
     public void ligar() {
         aparelhoTelefonico.ligar();
